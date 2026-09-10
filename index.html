@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Verificación de Documentos</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f1f2f4;
+            color: #333;
+        }
+
+        .encabezado {
+            height: 60px;
+            background: #ffb82e;
+            color: white;
+            display: flex;
+            align-items: center;
+            padding-left: 20px;
+            font-size: 24px;
+        }
+
+        .icono {
+            font-size: 32px;
+            margin-right: 35px;
+        }
+
+        .contenedor {
+            max-width: 700px;
+            margin: 65px auto;
+            padding: 0 30px;
+        }
+
+        .fila {
+            display: flex;
+            margin-bottom: 22px;
+            font-size: 18px;
+        }
+
+        .etiqueta {
+            width: 110px;
+            font-weight: normal;
+        }
+
+        .valor {
+            color: #333;
+        }
+
+        .boton {
+            display: inline-block;
+            margin-left: 110px;
+            margin-top: -5px;
+            padding: 13px 28px;
+            background: #2f91df;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        .boton:hover {
+            background: #1976c9;
+        }
+
+        @media (max-width: 600px) {
+            .contenedor {
+                margin-top: 40px;
+                padding: 0 20px;
+            }
+
+            .encabezado {
+                font-size: 19px;
+            }
+
+            .fila {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="encabezado">
+        <div class="icono">📄</div>
+        <div>Verificación de Documentos</div>
+    </div>
+
+    <div class="contenedor">
+
+        <div class="fila">
+            <div class="etiqueta">Tipo:</div>
+            <div class="valor">Constancia de estudios de pregrado</div>
+        </div>
+
+        <div class="fila">
+            <div class="etiqueta">Fecha:</div>
+            <div class="valor">10-09-2026 00:23</div>
+        </div>
+
+        <div class="fila">
+            <div class="etiqueta">Caducidad:</div>
+            <div class="valor">No caduca</div>
+        </div>
+
+        <a class="boton"
+           href="https://drive.google.com/file/d/1iHUO9Y5B9Hck-O6SpW75qiFA-pRU2yhw/view?usp=sharing"
+           target="_blank">
+            DESCARGAR
+        </a>
+
+    </div>
+
+</body>
+</html>
